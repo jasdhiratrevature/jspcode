@@ -17,5 +17,11 @@
     Title in Spanish Locale :: <fmt:message key="title" bundle="${resourceBundle}"/>
     <br/>
     Username in Spanish Locale :: <fmt:message key="usernameLbl" bundle="${resourceBundle}"/>
+    
+    <br/>
+    <fmt:setLocale value="fr_FR"/>
+    <fmt:setBundle basename="com.revature.bundle.myBundle" var="resourceBundle"/>
+    Title in Spanish Locale :: <fmt:message key="title" bundle="${resourceBundle}"/>
+    <br/>
   </body>
 </html>

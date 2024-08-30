@@ -15,7 +15,7 @@ public class HelloAttribute extends TagSupport {
 	public int doStartTag() throws JspException {  
 	    JspWriter out=pageContext.getOut();  
 	    try{  
-	        out.print("<h2> Hello "+yourName+"</h2>");  
+	        out.print("<h2> Hello "+yourName.toUpperCase()+"</h2>");  
 	    }catch(Exception e){e.printStackTrace();}  
 	      
 	    return SKIP_BODY;  

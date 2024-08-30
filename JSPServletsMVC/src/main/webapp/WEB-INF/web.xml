@@ -12,4 +12,14 @@
     <servlet-name>EmployeeServlet</servlet-name>
     <url-pattern>/empserv</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EmailSendingServlet</display-name>
+    <servlet-name>EmailSendingServlet</servlet-name>
+    <servlet-class>com.revature.email.EmailSendingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmailSendingServlet</servlet-name>
+    <url-pattern>/emailserv</url-pattern>
+  </servlet-mapping>
 </web-app>

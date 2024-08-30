@@ -12,6 +12,7 @@
 		<name>today</name>
 		<tag-class>com.revature.mytags.MyTagHandler</tag-class>
 	</tag>
+
 	<tag>
 	<name>hello</name>
 	<tag-class>com.revature.mytags.HelloAttribute</tag-class>
@@ -20,6 +21,7 @@
 	<required>true</required>
 	</attribute>
 	</tag>
+	
 	<tag>
       <name>helloBody</name>
       <tag-class>com.revature.mytags.HelloBodyTag</tag-class>
