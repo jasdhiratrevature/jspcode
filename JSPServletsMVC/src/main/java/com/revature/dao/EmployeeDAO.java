@@ -6,7 +6,7 @@ import java.util.List;
 import com.revature.model.Employee;
 
 public class EmployeeDAO {
-	
+	// Data base operations happen here in the dao layer
 	List<Employee> employeeList=new ArrayList();
 	Employee e1=new Employee(1,"A","IT");
 	Employee e2=new Employee(2,"B","IT");

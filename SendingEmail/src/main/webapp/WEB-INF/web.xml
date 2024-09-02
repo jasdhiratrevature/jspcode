@@ -6,7 +6,7 @@
     </welcome-file-list>
   <context-param>
         <param-name>host</param-name>
-        <param-value>smtp.gmail.com</param-value>
+        <param-value>sandbox.smtp.mailtrap.io</param-value>
     </context-param>
  
     <context-param>
@@ -16,12 +16,12 @@
  
     <context-param>
         <param-name>user</param-name>
-        <param-value>YOUR_USERNAME_HERE</param-value>
+        <param-value>30c0cc6f055424</param-value>
     </context-param>
  
     <context-param>
         <param-name>pass</param-name>
-        <param-value>YOUR_PASSWORD_HERE</param-value>
+        <param-value>8f3aadf5dd068a</param-value>
     </context-param>
   <servlet>
     <servlet-name>EmailSendingServlet</servlet-name>
